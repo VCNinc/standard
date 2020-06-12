@@ -20,8 +20,8 @@ const config = {
     'modularseed.xyz.'
   ],
   httpsSeeds: [
-    'https://modularseed.xyz/seed',
-    'https://raw.githubusercontent.com/modular/seed/master/seed'
+    'https://modularseed.xyz/seed.txt',
+    'https://raw.githubusercontent.com/modular/seed/master/seed.txt'
   ],
   networkModulus: 65536,
   sectorMapSize: 64,

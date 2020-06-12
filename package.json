@@ -2,7 +2,7 @@
   "name": "@modular/standard",
   "version": "1.0.3",
   "description": "Standard Modular Network Configuration (standard)",
-  "main": "index.js",
+  "main": "standard.js",
   "bugs": {
     "url": "https://github.com/modular/standard/issues",
     "email": "modzero@protonmail.com"
@@ -13,7 +13,7 @@
     "test": "npm run style",
     "version": "npm run build && git add standard.min.js",
     "release": "np",
-    "build": "terser --compress --comments false --module index.js --mangle -o standard.min.js"
+    "build": "terser --compress --comments false --module standard.js --mangle -o standard.min.js"
   },
   "repository": "github:modular/standard",
   "author": "Modulo <modzero@protonmail.com> (https://github.com/modulo)",
