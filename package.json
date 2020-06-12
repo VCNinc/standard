@@ -15,7 +15,7 @@
     "release": "np",
     "build": "terser --compress --comments false --module index.js --mangle -o standard.min.js"
   },
-  "repository": "github:modular/arithmetic-core",
+  "repository": "github:modular/standard",
   "author": "Modulo <modzero@protonmail.com> (https://github.com/modulo)",
   "license": "MIT",
   "devDependencies": {
