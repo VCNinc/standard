@@ -9,27 +9,27 @@
  * @author Modulo (https://github.com/modulo) <modzero@protonmail.com>
  */
 
-var {ModularConfiguration} = require('@modular/config');
+var { ModularConfiguration } = require('@modular/config')
 
-let config = {
-	dohEndpoints: [
-		"https://cloudflare-dns.com/dns-query",
-		"https://dns.google/resolve"
-	],
-	dnsSeeds: [
-		"modularseed.xyz."
-	],
-	httpsSeeds: [
-		"https://raw.githubusercontent.com/modular/seed/master/seed"
-		"https://modularseed.xyz/seed",
-	],
-	networkModulus: 65536,
-	sectorMapSize: 64,
-	logoSectorMapSize: 16,
-	iconSectorMapSize: 4,
-	root: {
-		fingerprint: `24CAC700CA118104DA6B35C4AF0199E5B99DFB69`,
-		publicKeyArmored:
+const config = {
+  dohEndpoints: [
+    'https://cloudflare-dns.com/dns-query',
+    'https://dns.google/resolve'
+  ],
+  dnsSeeds: [
+    'modularseed.xyz.'
+  ],
+  httpsSeeds: [
+    'https://modularseed.xyz/seed',
+    'https://raw.githubusercontent.com/modular/seed/master/seed'
+  ],
+  networkModulus: 65536,
+  sectorMapSize: 64,
+  logoSectorMapSize: 16,
+  iconSectorMapSize: 4,
+  root: {
+    fingerprint: '24CAC700CA118104DA6B35C4AF0199E5B99DFB69',
+    publicKeyArmored:
 `-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1
 
@@ -82,8 +82,8 @@ LMI4o5tIn3rujGUZ6Po6dnjXChCGDaMwbsIh2qkzRH2KQ0yGJjHmJTsjP9QVA9gR
 HWUlahIjut63eivmQQlYY4ryIf5tXGrP1mNfN3uanYh6
 =h/f0
 -----END PGP PUBLIC KEY BLOCK-----`
-	}
+  }
 }
 
 /* Module Exports */
-module.exports.config = (() => ModularConfiguration.new(config));
+module.exports.config = () => ModularConfiguration.new(config)
