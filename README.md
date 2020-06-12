@@ -1,38 +1,33 @@
-[![Modular Core](https://raw.githubusercontent.com/modular/arithmetic-core/master/site/fmna-core.png "Modular Core")](https://fmna.core.modular.social/ "Modular Core")
+# Modular Standard Configuration
+[![GitHub issues](https://img.shields.io/github/issues/modular/standard)](https://github.com/modular/standard/issues)
+[![GitHub license](https://img.shields.io/github/license/modular/standard)](https://github.com/modular/standard/blob/master/LICENSE)
+[![GitHub tag](https://img.shields.io/github/tag/modular/standard.svg)](https://github.com/modular/standard/tags)
+[![GitHub release](https://img.shields.io/github/release/modular/standard.svg)](https://github.com/modular/standard/releases)
 
-# Modular Arithmetic Core
-[![GitHub issues](https://img.shields.io/github/issues/modular/arithmetic-core)](https://github.com/modular/arithmetic-core/issues)
-[![GitHub license](https://img.shields.io/github/license/modular/arithmetic-core)](https://github.com/modular/arithmetic-core/blob/master/LICENSE)
-[![GitHub tag](https://img.shields.io/github/tag/modular/arithmetic-core.svg)](https://github.com/modular/arithmetic-core/tags)
-[![GitHub release](https://img.shields.io/github/release/modular/arithmetic-core.svg)](https://github.com/modular/arithmetic-core/releases)
-
-
-[Site](https://fmna.core.modular.social/) |
-[Docs](https://fmna.core.modular.social/docs/) |
-[Contributing](https://github.com/modular/arithmetic-core/blob/master/CONTRIBUTING.md) |
-[Security](https://github.com/modular/arithmetic-core/blob/master/SECURITY.md) |
 [Modular](https://github.com/modular) |
 [Modulo](https://github.com/modulo)
 
-The Fast Modular Networking Arithmetic Core (fmna-core) package is a core component of Modular. It performs the modular arithmetic calculations that are used by nodes to determine how to route messages and ensure total network coverage.
+Standard Modular Network Configuration (standard)
 
 Modular is a an open-source standard for decentralized social communication. It aims to solve the issues of censorship, deplatforming, intrusive adveritsing, poor user privacy that are prevalent on centralized social media platforms. Users on a Modular Network can communicate with eachother across the world without any centralized point of failure.
 
 ## Download
 ### GitHub
-[Download Latest Release](https://github.com/modular/arithmetic-core/releases)
+[Download Latest Release](https://github.com/modular/standard/releases)
 
 ### CDN
-[JSDelivr Page](https://www.jsdelivr.com/package/npm/@modular/fmna-core)
+[JSDelivr Page](https://www.jsdelivr.com/package/npm/@modular/standard)
 
-	<script src="https://cdn.jsdelivr.net/npm/@modular/fmna-core/fmna-core.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@modular/standard/standard.min.js"></script>
 
 ## Installation
 ### In a browser:
-	<script src="fmna-core.min.js"></script>
+	<script src="standard.min.js"></script>
 
 ### Using npm:
-	npm i --save @modular/fmna-core
+	npm i --save @modular/standard
 
 ### In Node.js:
-	var {ModularNetwork, ModSpace, CoverageTree} = require('@modular/fmna-core');
+	require('@modular/standard').config().then((config) => {
+		this.config = config;
+	});
