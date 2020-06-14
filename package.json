@@ -1,6 +1,6 @@
 {
   "name": "@modular/standard",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Standard Modular Network Configuration (standard)",
   "main": "standard.js",
   "bugs": {
