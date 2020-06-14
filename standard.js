@@ -12,6 +12,8 @@
 var { ModularConfiguration } = require('@modular/config')
 
 const config = {
+  networkIdentifier: 'modular',
+  version: 1,
   dohEndpoints: [
     'https://cloudflare-dns.com/dns-query',
     'https://dns.google/resolve'
