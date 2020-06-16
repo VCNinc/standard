@@ -38,6 +38,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@modular/config": "^1.0.5"
+    "@modular/config": "^1.0.7"
   }
 }

@@ -25,6 +25,8 @@ const config = {
     'https://modularseed.xyz/seed.txt',
     'https://raw.githubusercontent.com/modular/seed/master/seed.txt'
   ],
+  minSectorCoverage: 2,
+  minHomeModCoverage: 3,
   networkModulus: 65536,
   sectorMapSize: 64,
   logoSectorMapSize: 16,
