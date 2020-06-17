@@ -26,7 +26,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "np": "^6.2.3",
-    "terser": "^4.7.0"
+    "terser": "^4.8.0"
   },
   "keywords": [
     "modular",
@@ -38,6 +38,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@modular/config": "^1.0.7"
+    "@modular/config": "^1.0.8"
   }
 }

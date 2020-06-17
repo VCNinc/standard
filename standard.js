@@ -14,6 +14,12 @@ var { ModularConfiguration } = require('@modular/config')
 const config = {
   networkIdentifier: 'modular',
   version: 1,
+  maxConcurrentRequests: 5,
+  defaultNodePriority: 0,
+  pingPriorityThreshold: 1000,
+  defaultRequestPriority: 200,
+  discoveryRequestPriority: 100,
+  bootstrapRequestPriority: 300,
   dohEndpoints: [
     'https://cloudflare-dns.com/dns-query',
     'https://dns.google/resolve'
