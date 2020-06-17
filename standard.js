@@ -32,6 +32,9 @@ const config = {
     'https://modularseed.xyz/seed.txt',
     'https://raw.githubusercontent.com/modular/seed/master/seed.txt'
   ],
+  staticSeeds: [
+    "https://rendezvous.modularseed.xyz"
+  ],
   minSectorCoverage: 2,
   minHomeModCoverage: 3,
   networkModulus: 65536,
