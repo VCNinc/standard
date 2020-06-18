@@ -22,8 +22,8 @@ const config = {
   bootstrapRequestPriority: 300,
   recoveryDelay: 1000,
   dohEndpoints: [
-    'https://cloudflare-dns.com/dns-query',
-    'https://dns.google/resolve'
+    'https://cloudflare-dns.com/dns-query?type=URI&edns_client_subnet=0.0.0.0/0&do=0',
+    'https://dns.google/resolve?type=256&edns_client_subnet=0.0.0.0/0&do=0'
   ],
   dnsSeeds: [
     'modularseed.xyz.'
