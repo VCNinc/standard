@@ -28,6 +28,12 @@ const config = {
   dnsSeeds: [
     'modularseed.xyz'
   ],
+  dnsServers: [
+    '1.1.1.1',
+    '8.8.8.8',
+    '1.0.0.1',
+    '8.8.4.4'
+  ],
   httpsSeeds: [
     'https://modularseed.xyz/seed.txt',
     'https://raw.githubusercontent.com/modular/seed/master/seed.txt'
