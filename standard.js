@@ -1,10 +1,10 @@
 /**
- * @file Fast Modular Networking Arithmetic Core (fmna-core package)
+ * @file Modular Standard Configuration (standard package)
  * @copyright Modular 2020
  * @license MIT
  *
  * @description
- * Rapid modular arithmetic algorithms for modular network computations. A core component of the Modulus network.
+ * Standard Modular Network Configuration
  *
  * @author Modulo (https://github.com/modulo) <modzero@protonmail.com>
  */
