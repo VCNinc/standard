@@ -21,6 +21,9 @@ const config = {
   discoveryRequestPriority: 100,
   bootstrapRequestPriority: 300,
   recoveryDelay: 1000,
+  defaultIgnorePeriod: 86400,
+  queueTimeout: 5000,
+  maxPeerShare: 100,
   dohEndpoints: [
     'https://cloudflare-dns.com/dns-query?type=URI&edns_client_subnet=0.0.0.0/0',
     'https://dns.google/resolve?type=256&edns_client_subnet=0.0.0.0/0&do=0'
