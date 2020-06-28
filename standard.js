@@ -29,7 +29,8 @@ const config = {
     'https://dns.google/resolve?type=256&edns_client_subnet=0.0.0.0/0&do=0'
   ],
   dnsSeeds: [
-    'modularseed.xyz'
+    'modularseed.xyz',
+    'doh.modularseed.xyz'
   ],
   dnsServers: [
     '1.1.1.1',
