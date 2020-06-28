@@ -30,7 +30,8 @@ const config = {
   ],
   dnsSeeds: [
     'modularseed.xyz',
-    'doh.modularseed.xyz'
+    'doh.modularseed.xyz',
+    'dns.modseed.ch'
   ],
   dnsServers: [
     '1.1.1.1',
@@ -40,10 +41,12 @@ const config = {
   ],
   httpsSeeds: [
     'https://modularseed.xyz/seed.txt',
-    'https://raw.githubusercontent.com/modular/seed/master/seed.txt'
+    'https://raw.githubusercontent.com/modular/seed/master/seed.txt',
+    'https://root.modseed.ch/seed.txt'
   ],
   staticSeeds: [
-    'https://rendezvous.modularseed.xyz'
+    'https://rendezvous.modularseed.xyz',
+    'https://rendezvous.modseed.ch'
   ],
   minSectorCoverage: 2,
   minHomeModCoverage: 3,
