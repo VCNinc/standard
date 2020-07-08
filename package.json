@@ -19,13 +19,13 @@
   "author": "Modulo <modzero@protonmail.com> (https://github.com/modulo)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.3.1",
+    "eslint": "^7.4.0",
     "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "np": "^6.2.3",
+    "np": "^6.3.1",
     "terser": "^4.8.0"
   },
   "keywords": [
@@ -38,6 +38,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@modular/config": "^1.0.15"
+    "@modular/config": "^1.0.16"
   }
 }

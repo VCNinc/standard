@@ -21,6 +21,11 @@ const config = {
   discoveryRequestPriority: 100,
   bootstrapRequestPriority: 300,
   recoveryDelay: 1000,
+  requestTimeout: 60000,
+  maxPostLength: 2048,
+  maxProfileLength: 4096,
+  maxPostCount: 256,
+  maxFollowCount: 4096,
   defaultIgnorePeriod: 86400,
   queueTimeout: 5000,
   maxPeerShare: 100,
@@ -29,9 +34,8 @@ const config = {
     'https://dns.google/resolve?type=256&edns_client_subnet=0.0.0.0/0&do=0'
   ],
   dnsSeeds: [
-    'modularseed.xyz',
     'doh.modularseed.xyz',
-    'dns.modseed.ch'
+    'modseed.ch'
   ],
   dnsServers: [
     '1.1.1.1',
@@ -41,8 +45,7 @@ const config = {
   ],
   httpsSeeds: [
     'https://modularseed.xyz/seed.txt',
-    'https://raw.githubusercontent.com/modular/seed/master/seed.txt',
-    'https://root.modseed.ch/seed.txt'
+    'https://raw.githubusercontent.com/modular/seed/master/seed.txt'
   ],
   staticSeeds: [
     'https://rendezvous.modularseed.xyz',
