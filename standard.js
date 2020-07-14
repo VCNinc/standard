@@ -34,7 +34,7 @@ const config = {
     'https://dns.google/resolve?type=256&edns_client_subnet=0.0.0.0/0&do=0'
   ],
   dnsSeeds: [
-    'doh.modularseed.xyz',
+    'dns.modularseed.xyz',
     'modseed.ch'
   ],
   dnsServers: [
@@ -44,12 +44,16 @@ const config = {
     '8.8.4.4'
   ],
   httpsSeeds: [
-    'https://modularseed.xyz/seed.txt',
-    'https://raw.githubusercontent.com/modular/seed/master/seed.txt'
+    'https://modularseed.xyz/index.txt',
+    'https://raw.githubusercontent.com/modular/seed/master/index.txt'
   ],
   staticSeeds: [
-    'https://rendezvous.modularseed.xyz',
-    'https://rendezvous.modseed.ch'
+    'https://alpha0.modularseed.xyz',
+    'https://alpha1.modularseed.xyz',
+    'https://alpha2.modularseed.xyz',
+    'https://alpha3.modularseed.xyz',
+    'https://alpha4.modularseed.xyz',
+    'https://alpha5.modularseed.xyz'
   ],
   minSectorCoverage: 2,
   minHomeModCoverage: 3,
